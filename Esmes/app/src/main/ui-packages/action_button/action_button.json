@@ -1,0 +1,129 @@
+{
+  "name": "action_button",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "20R7XgQ6wRaz08Yf5wKdQ9",
+    "node": "241:279",
+    "version": "2780498660"
+  },
+  "default": "Action Button",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 5"
+      },
+      {
+        "type": "text",
+        "id": "Login"
+      }
+    ],
+    "modes": {
+      "Action Button": {
+        "rules": [
+          {
+            "id": "top_level",
+            "tap-handler": "$onClick",
+            "is-structured": "false",
+            "children": [
+              "Rectangle 5",
+              "Login"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Rectangle 5",
+            "border-radius": "5.0",
+            "drop-shadow": {
+              "color": {
+                "alpha": "0.4980392156862745",
+                "hue": "0.0",
+                "saturation": "0.0",
+                "value": "0.3607843137254902"
+              },
+              "blur": "5.0",
+              "offset-x": "0.0",
+              "offset-y": "3.0",
+              "spread": "0.0",
+              "blend-mode": "normal"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "rectangle_5.svg"
+          },
+          {
+            "id": "Login",
+            "margin": {
+              "left": "82.0",
+              "top": "12.0",
+              "right": "81.0",
+              "bottom": "11.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "font-weight": "500.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "$text",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "line-height": "1.171875"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "onClick": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "text": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "Action Button",
+      "size": {
+        "width": 262.0,
+        "height": 38.0
+      },
+      "parameters": {
+        "text": "Login"
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}
